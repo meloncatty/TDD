@@ -23,7 +23,7 @@ describe('bubbleSort', () => {
   })
 
   it('should sort an array of positive and negative integers', () => {
-    const newArray = [-40, -33, 6, 12, 88, -100]
+    const newArray = [-40, -33, 6, 12, 88, -100] 
     const sortedArray = bubbleSort(newArray)
 
     assert.deepEqual(sortedArray, [-100, -40, -33, 6, 12, 88])
